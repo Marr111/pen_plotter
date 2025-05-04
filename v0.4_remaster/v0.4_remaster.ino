@@ -76,6 +76,14 @@ void setup() {
 }
 
 void loop() {
+  led("verde");
+
+  if (analogRead(A5) > 1021) {
+    delay(1000);
+    led("rosso");
+    go_home();
+  }
+
   if (Serial.available()) {
     String input = Serial.readStringUntil('\n');
     input.trim();
@@ -146,9 +154,10 @@ void movimentoAlto(int obb) {
     delayMicroseconds(usDelay);
     digitalWrite(stepPin2, LOW);
     delayMicroseconds(usDelay);
-    if (analogRead(fc1) < 1018) {
-      delay(3000);
+   if (analogRead(fc1) < 1018) {
+      led("rosso");
       Serial.println("Finecorsa attivato errore");
+      delay(3000);
       break;
     }
   }
@@ -163,6 +172,7 @@ void movimentoBasso(int obb) {
     delayMicroseconds(usDelay);
     if (analogRead(fc1) < 1018) {
       Serial.println("Finecorsa attivato errore");
+      led("rosso");
       delay(3000);
       break;
     }
@@ -178,6 +188,7 @@ void movimentoDestra(int obb) {
     delayMicroseconds(usDelay);
     if (analogRead(fc1) < 1018) {
       Serial.println("Finecorsa attivato errore");
+      led("rosso");
       delay(3000);
       break;
     }
@@ -193,7 +204,7 @@ void movimentoSinistra(int obb) {
     delayMicroseconds(usDelay);
     if (analogRead(fc1) < 1018) {
       Serial.println("Finecorsa attivato errore");
-
+      led("rosso");
       delay(3000);
       break;
     }
@@ -248,6 +259,8 @@ void velocitamotori(int velocita) {
 }
 
 void go_home() {
+    velocitamotori(1);
+  led("arancione");
   digitalWrite(dirPin1, LOW);   // senso antiorario
   digitalWrite(dirPin2, HIGH);  // senso antiorario
 
@@ -273,8 +286,8 @@ void go_home() {
       delayMicroseconds(usDelay);
     }
   }
-   digitalWrite(dirPin2, LOW);   
-  digitalWrite(dirPin1, HIGH);  
+  digitalWrite(dirPin2, LOW);
+  digitalWrite(dirPin1, HIGH);
   Serial.println("Finecorsa x attivato, motore fermo");
 }
 
@@ -296,7 +309,6 @@ void numero(int cifra) {
       break;
   }
 }
-
 
 void led(String colorName) {
   // Converto la stringa in minuscolo per standardizzare
@@ -351,30 +363,19 @@ void led(String colorName) {
   // Se il colore non è riconosciuto, il LED rimane spento (tutti i pin a 0)
 }
 
-/*void A() {
-  Serial.println("Hai chiamato la funzione A()");
-  digitalWrite(penna, HIGH);
-  movimentoy(3000, "alto");
-  delay(1000);
-  movimentox(2000);
-  delay(1000);
-  movimentoy(3000, "basso");
-  delay(1000);
-  movimentoy(2000, "alto");
-  delay(1000);
-  movimentox(2000);
-  delay(1000);
-  digitalWrite(penna, LOW);
-}*/
-
 void A() {
   Serial.println("Hai chiamato la funzione A()");
+  movimentoAlto(2000);
   digitalWrite(penna, HIGH);
-  movimentoAlto(3000);
-  movimentoBasso(3000);
-  movimentoDestra(3000);
-  movimentoSinistra(3000);
+
+  movimentoBasso(2000);
+  movimentoSinistra(1300);
+  movimentoAlto(2000);
+  movimentoBasso(1200);
+  movimentoDestra(1300);
+
   digitalWrite(penna, LOW);
+  movimentoAlto(1200);
 }
 
 void B() {
