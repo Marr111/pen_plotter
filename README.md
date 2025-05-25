@@ -1,6 +1,6 @@
 Informazioni sui file
 Il file in cui avvengono le modifiche principali è:
-v0.4_remaster
+v1.0
 
 I file del progetto sono suddivisi in due categorie:
 
