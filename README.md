@@ -472,7 +472,6 @@ Verifica:
 | **LED rosso fisso** | Finecorsa attivato | Muovi manualmente carrello, riavvia Arduino |
 | **Nessun movimento** | Driver non alimentati | Verifica 12V, connessioni driver |
 | **Movimenti a scatti** | Velocità troppo alta | Aumenta `usDelay` (es. 700 → 1000) |
-| **Caratteri storti** | Cinghie lente | Tendi le cinghie GT2 |
 | **Penna non scrive** | Altezza errata | Regola altezza supporto penna |
 | **A capo non funziona** | Variabile `nparole` errata | Reset con pulsante HOME |
 | **Scrittura oltre margine** | Limite non gestito | Sistema va a capo automatico a 39000 step |
