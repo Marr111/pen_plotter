@@ -775,6 +775,12 @@ questo software per qualsiasi scopo, con o senza fini di lucro.
 
 ---
 
+## 👥 Collaboratori
+
+Questo progetto è stato sviluppato con il contributo di: Alberto Parisi e [Simone Baldassare@](https://github.com/B4ldino)
+
+Un ringraziamento speciale a tutti i collaboratori per il loro impegno e dedizione al progetto! 🎉
+
 ## 🙏 Ringraziamenti
 
 - **Arduino Community** - Per librerie e supporto
