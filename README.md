@@ -1,6 +1,3 @@
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Made in Italy](https://img.shields.io/badge/Made%20in-Italy-green?style=flat&logo=italy)
-
 # 🖊️ Pen Plotter - Plotter XY a Controllo Diretto Arduino
 
 Plotter a penna controllato direttamente da **Arduino** con motori stepper per scrittura automatica di testo e numeri su carta formato A3.
@@ -863,6 +860,8 @@ A: Sì, modifica le costanti nell'area di lavoro e calibra finecorsa di consegue
 <div align="center">
 
 ### ⭐ Se questo progetto ti è utile, lascia una stella! ⭐
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Made in Italy](https://img.shields.io/badge/Made%20in-Italy-green?style=flat&logo=italy)
 
 **Made with ❤️ and stepper motors**
 
