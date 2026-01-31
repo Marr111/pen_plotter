@@ -840,9 +840,6 @@ Un ringraziamento speciale a tutti i collaboratori per il loro impegno e dedizio
 
 ## ❓ FAQ
 
-**Q: Perché alcune lettere non funzionano?**  
-A: Solo 13/26 lettere sono implementate. Le altre mostrano solo un delay di 2 secondi. Contribuisci aggiungendole!
-
 **Q: Come cambio la velocità?**  
 A: Modifica la variabile `usDelay` nel codice (valore più alto = più lento)
 
