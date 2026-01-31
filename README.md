@@ -322,11 +322,8 @@ Hai chiamato la funzione quattro()
 
 ### Lettere Implementate
 
-✅ **Completamente funzionanti:**
-- A, C, E, F, G, H, I, L, O, S, T, U, V
-
-⚠️ **Da implementare:**
-- B, D, J, K, M, N, P, Q, R, W, X, Y, Z
+✅ **Tutte le lettere:**
+- A --> Z
 
 ### Numeri Implementati
 
