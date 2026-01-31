@@ -14,20 +14,36 @@ Plotter a penna controllato direttamente da **Arduino** con motori stepper per s
 
 ## 📋 Indice
 
+**Getting Started**
 - [Caratteristiche](#-caratteristiche)
 - [Hardware Richiesto](#-hardware-richiesto)
 - [Schema Collegamenti](#-schema-collegamenti)
 - [Installazione](#-installazione)
+
+**Configurazione e Uso**
 - [Configurazione](#-configurazione)
 - [Utilizzo](#-utilizzo)
 - [Comandi Disponibili](#-comandi-disponibili)
 - [Alfabeto e Numeri](#-alfabeto-e-numeri)
+
+**Manutenzione e Personalizzazione**
 - [Calibrazione](#-calibrazione)
 - [Troubleshooting](#-troubleshooting)
 - [Personalizzazione](#-personalizzazione)
-- [Contribuire](#-contribuire)
+- [Specifiche Tecniche](#-specifiche-tecniche)
 
----
+**Progetto e Community**
+- [Roadmap](#-roadmap)
+- [Contribuire](#-contribuire)
+- [Licenza](#-licenza)
+- [Autore](#-autore)
+- [Collaboratori](#-collaboratori)
+- [Ringraziamenti](#-ringraziamenti)
+
+**Risorse**
+- [Risorse Utili](#-risorse-utili)
+- [Video e Media](#-video-e-media)
+- [FAQ](#-faq)
 
 ## ✨ Caratteristiche
 
