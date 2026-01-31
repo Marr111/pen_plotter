@@ -704,7 +704,7 @@ if (nparole > 39000) {  // ~390mm dalla sinistra
 
 ### ✅ Versione 1.0 (Attuale)
 
-- [x] Alfabeto base (13/26 lettere)
+- [x] Alfabeto base (26 lettere)
 - [x] Numeri completi (0-9)
 - [x] Homing automatico
 - [x] Gestione a capo
@@ -713,7 +713,6 @@ if (nparole > 39000) {  // ~390mm dalla sinistra
 
 ### 🔨 Versione 1.5 (Prossima)
 
-- [ ] Lettere mancanti (B, D, J, K, M, N, P, Q, R, W, X, Y, Z)
 - [ ] Simboli (., !, ?, -, +, ecc.)
 - [ ] Font minuscolo
 - [ ] Regolazione velocità via seriale
@@ -744,17 +743,9 @@ if (nparole > 39000) {  // ~390mm dalla sinistra
 
 ### Aree Prioritarie
 
-🔤 **Lettere mancanti**
-- Implementa tracciati lettere B, D, J, K, M, N, P, Q, R, W, X, Y, Z
-
 ⚡ **Ottimizzazioni**
 - Riduci movimenti inutili
 - Ottimizza percorsi tracciati
-
-📚 **Documentazione**
-- Video tutorial assemblaggio
-- Guide calibrazione
-- Esempi progetti
 
 🐛 **Bug fixing**
 - Testa edge cases
