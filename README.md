@@ -848,4 +848,3 @@ A: Sì, modifica le costanti nell'area di lavoro e calibra finecorsa di consegue
 [⬆️ Torna su](#️-pen-plotter---plotter-xy-a-controllo-diretto-arduino)
 
 </div>
-```
